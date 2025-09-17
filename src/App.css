@@ -1,0 +1,85 @@
+.App {
+  display: flex; 
+  height: 100vh; 
+  background-color: #fffdfd; 
+  color: black;
+}
+
+.sidebar {
+  width: 240px;
+  background-color: #e9e7e7;
+  padding: 10px;
+  display: flex;
+  flex-direction: column; 
+}
+
+
+.sidebar-button {
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  border: 1px solid #565869; 
+  border-radius: 5px;
+  padding: 12px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-align: left;
+  font-size: 0.9em;
+}
+
+.chat-area {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  max-width: 900px; 
+  margin: 0 auto;
+  position: relative;
+  gap: 10px; 
+}
+
+.chat-bubble {
+  max-width: 70%;
+  padding: 12px 18px;
+  border-radius: 18px; 
+  margin-bottom: 0;
+  line-height: 1.4;
+}
+
+.chat-bubble.user {
+  background-color: #e9e9eb; 
+  color: black;
+  align-self: flex-end; 
+}
+
+.input-wrapper {
+  margin-top: auto;
+  padding-top: 20px;
+  background-color: #ffffff;
+}
+
+.input-form {
+  display: flex;
+  background-color: #e6e6e6;
+  border-radius: 20px; 
+  padding: 8px;
+  border: 1px solid #c0c0c0;
+}
+
+.chat-input {
+  flex-grow: 1; 
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-size: 1em;
+  padding: 10px;
+}
+
+.send-button {
+  background-color: #aeaeae; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
